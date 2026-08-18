@@ -16,12 +16,31 @@
         <p>Enjoy a variety of fresh breads, pastries, and cakes baked daily</p>
         <p>Prices range frpm $3 to $30</p>
 
+        <section>
+            <h2>Choose Your Favorite Bakery Item</h2>
+            <p>Select your favorite item and we will remember your choice.</p>
+
+            <label for="favoriteItem">Favorite bakery item:</label>
+            <select id="favoriteItem">
+                <option value="">-- Choose an item --</option>
+                <option value="Cake">Cake</option>
+                <option value="Cupcakes">Cupcakes</option>
+                <option value="Cookies">Cookies</option>
+                <option value="Pastries">Pastries</option>
+            </select>
+            
+            <button type="button" onclick="saveFavorite()">Save Favorite</button>
+
+            <p id="favoriteMessage"></p>
+        </section>
+            
         <h3>Breads</h3>
-        </p>Freshly baked loaves,rolls,and specialty breads</p>
+        <p>Freshly baked loaves,rolls,and specialty breads</p>
 
         <h3>Pastries</h3>
         <p>Choose from muffins, croissants, cookies, and other sweet treats</p>
         <h3>cakes</h3>
         <p>Custom cakes are available for birthdays, celebrations, and special occasions.</p>
+        <script src="script.js"></script>
     </body>
 </html>
