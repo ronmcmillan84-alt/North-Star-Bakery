@@ -1,7 +1,7 @@
 const bakeryItems = ["Cake", "Cupcakes", "Cookies", "Pastries"];
 
 function saveFavorite() {
-   const favoriteSelect = document.getElementById(favoriteItem");
+   const favoriteSelect = document.getElementById("favoriteItem");
    const favoriteMessage = document.getElementById("favoriteMessage");
 
   if (! favoriteSelect || !favoriteMessage) {
