@@ -29,7 +29,7 @@ const savedItem = localStorage.getItem("favoriteBakeryItem");
 if (savedItem) {
    favoriteSelect.value = savedItem;
    favoriteMessage.textContent =
-        "Welcome Back! Your favorite bakery item is " + saveItem + ".";
+        "Welcome Back! Your favorite bakery item is " + savedItem + ".";
 }
 }
-  document.addEventListener("DOMContent-Loaded",loadFavorite);
+  document.addEventListener("DOMContentLoaded",loadFavorite);
