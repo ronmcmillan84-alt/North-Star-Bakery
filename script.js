@@ -38,7 +38,7 @@ if (savedItem) {
   document.addEventListener("DOMContentLoaded",loadFavorite);
 
 function isValidEmail(email) {
-   return email.includes(@");
+   return email.includes("@");
                          }
 function validateContactForm(event) {
    event.preventDefault();
